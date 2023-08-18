@@ -1,7 +1,7 @@
 import { withThemeByClassName } from "@storybook/addon-styling";
 
 /* TODO: update import to your tailwind styles file. If you're using Angular, inject this through your angular.json config instead */
-import "../src/index.css";
+import "../src/css/index.css";
 
 /** @type { import('@storybook/react').Preview } */
 const preview = {

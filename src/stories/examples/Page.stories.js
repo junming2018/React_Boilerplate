@@ -1,6 +1,6 @@
 import { within, userEvent } from '@storybook/testing-library';
 
-import { Page } from "../../components/examples/Page";
+import { Page } from "../../examples/Page";
 
 export default {
   title: 'Example/Page',
