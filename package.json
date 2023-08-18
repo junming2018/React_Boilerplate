@@ -1,15 +1,26 @@
 {
-  "name": "learning-reactjs",
-  "private": true,
-  "version": "0.0.0",
+  "name": "react_boilerplate",
+  "version": "1.0.0",
+  "description": "React + Javascript + Vite + SWC + Tailwind CSS + Storybook",
+  "keywords": [
+    "react",
+    "reactjs",
+    "vite",
+    "swc",
+    "tailwindcss",
+    "storybook"
+  ],
+  "author": "Jun Ming Teh (Bryan)",
+  "license": "GPL-3.0",
+  "homepage": "https://junmingteh-2018.github.io/React_Boilerplate/",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0"
   },
   "dependencies": {
     "react": "^18.2.0",
