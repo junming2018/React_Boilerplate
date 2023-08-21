@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import ViteLogo from "../../assets/vite.svg";
 import ReactLogo from "/react.svg";
-import CenterVertical from "../layouts/centerVertical";
+import CenterVertical from "../layouts/CenterVertical";
 import ImageLink from "../components/ImageLink";
 import Text from "../components/Text";
 import Button from "../components/Button";
