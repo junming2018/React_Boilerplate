@@ -22,6 +22,10 @@ const router = createBrowserRouter([
     element: <SecondPage />,
     errorElement: <ErrorPage />,
   },
+  {
+    path: "/React_Boilerplate/*",
+    element: <ErrorPage />,
+  },
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(

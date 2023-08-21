@@ -30,7 +30,8 @@ function ErrorPage() {
       <Text className="text-[3.2em] leading-[1.1] text-white">Error</Text>
 
       <Text className="text-[#888] p-[2em]">
-        Error Log: {error.statusText || error.message}
+        Error Log:{" "}
+        {(error?.statusText || error?.message) ?? "This is not a valid URL"}
       </Text>
 
       <Button onClick={backToHome}>Back to Home</Button>
