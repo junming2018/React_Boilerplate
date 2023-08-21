@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 
-const centerVertical = (props) => {
+const CenterVertical = (props) => {
   return (
     <>
       <div
@@ -15,9 +15,9 @@ const centerVertical = (props) => {
   );
 };
 
-centerVertical.propTypes = {
+CenterVertical.propTypes = {
   className: PropTypes.string,
   children: PropTypes.node,
 };
 
-export default centerVertical;
+export default CenterVertical;

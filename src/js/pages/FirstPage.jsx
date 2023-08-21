@@ -1,23 +1,28 @@
-import { useState } from "react";
-import reactLogo from "/react.svg";
-import viteLogo from "../../assets/vite.svg";
-import CenterVertical from "../layouts/centerVertical";
+import { useEffect, useState } from "react";
+import ReactLogo from "/react.svg";
+import ViteLogo from "../../assets/vite.svg";
+import CenterVertical from "../layouts/CenterVertical";
 import ImageLink from "../components/ImageLink";
 import Text from "../components/Text";
 import Button from "../components/Button";
 
 function App() {
+  useEffect(() => {
+    document.title = "First Page of React Boilerplate";
+    document.querySelector('link[rel="icon"]').href = "/react.svg";
+  }, []);
+
   const imageLink = [
     {
       href: "https://react.dev",
-      src: reactLogo,
+      src: ReactLogo,
       alt: "React logo",
       className:
         "motion-safe:animate-[spin_20s_linear_infinite] hover:drop-shadow-[0_0_2em_#61dafbaa]",
     },
     {
       href: "https://vitejs.dev",
-      src: viteLogo,
+      src: ViteLogo,
       alt: "Vite logo",
       className: "hover:drop-shadow-[0_0_2em_#646cffaa]",
     },
@@ -37,7 +42,9 @@ function App() {
       </Text>
 
       <div className="p-[2em] space-y-[1em]">
-        <Button onClick={() => setCount((count) => count + 1)} count={count} />
+        <Button onClick={() => setCount((count) => count + 1)} count={count}>
+          Count {count}
+        </Button>
 
         <Text className="text-white">
           React + Javascript + Vite + SWC + Tailwind CSS + Storybook

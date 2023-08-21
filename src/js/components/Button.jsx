@@ -11,7 +11,7 @@ const Button = (props) => {
         type="button"
         onClick={props.onClick}
       >
-        Count {props.count}
+        {props.children}
       </button>
     </>
   );
@@ -21,12 +21,14 @@ Button.propTypes = {
   className: PropTypes.string,
   onClick: PropTypes.func,
   count: PropTypes.number,
+  children: PropTypes.node,
 };
 
 Button.defaultProps = {
   className: "",
   onClick: () => {},
   count: 0,
+  children: "",
 };
 
 export default Button;
