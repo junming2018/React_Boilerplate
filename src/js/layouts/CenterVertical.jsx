@@ -5,7 +5,7 @@ const CenterVertical = (props) => {
     <>
       <div
         className={
-          "absolute flex flex-col inset-0 mx-auto my-0 text-center justify-center items-center " +
+          "absolute flex flex-col inset-0 mx-auto my-0 text-center justify-center items-center overflow-y-auto " +
           props.className
         }
       >
