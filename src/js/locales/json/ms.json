@@ -1,0 +1,22 @@
+{
+    "english": "Bahasa Inggeris",
+    "malay": "Bahasa Melayu",
+    "logo.react": "Logo React",
+    "logo.vite": "Logo Vite",
+    "icon.error": "Ikon Ralat",
+    "first.document.title": "Halaman Pertama Pendawaian React",
+    "first.title": "Pendawaian React",
+    "first.description": "React + Javascript + Vite + SWC + Tailwind CSS + Storybook",
+    "first.instruction": "Klik pada logo React dan Vite untuk mengetahui lebih lanjut",
+    "second.document.title": "Halaman Kedua Pendawaian Vite + React",
+    "second.title": "Pendawaian Vite + React",
+    "second.description": "Vite + React + Javascript + SWC + Tailwind CSS + Storybook",
+    "second.instruction": "Klik pada logo Vite dan React untuk mengetahui lebih lanjut",
+    "error.document.title": "Halaman Ralat Pendawaian React",
+    "error.title": "Ralat",
+    "error.description": "Ini bukan URL yang sah",
+    "error.instruction": "Log Ralat",
+    "button.count": "Kiraan",
+    "button.back": "Kembali ke Utama",
+    "placeholder": "Ruang Letak"
+}
