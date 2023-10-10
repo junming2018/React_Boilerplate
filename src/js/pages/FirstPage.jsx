@@ -12,7 +12,7 @@ const FirstPage = () => {
   const { t } = useTranslation();
 
   useEffect(() => {
-    document.title = t("first.document.title");
+    document.title = t("first.header");
     document.querySelector('link[rel="icon"]').href = "/react.svg";
   }, [t]);
 

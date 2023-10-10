@@ -12,7 +12,7 @@ const ErrorPage = () => {
   const { t } = useTranslation();
 
   useEffect(() => {
-    document.title = t("error.document.title");
+    document.title = t("error.header");
     document.querySelector('link[rel="icon"]').href = "/src/assets/error.png";
   }, [t]);
 

@@ -12,7 +12,7 @@ const SecondPage = () => {
   const { t } = useTranslation();
 
   useEffect(() => {
-    document.title = t("second.document.title");
+    document.title = t("second.header");
     document.querySelector('link[rel="icon"]').href = "/src/assets/vite.svg";
   }, [t]);
 
