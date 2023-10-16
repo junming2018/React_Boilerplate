@@ -21,7 +21,7 @@ const ErrorPage = () => {
   const navigate = useNavigate();
 
   function backToHome() {
-    navigate("/React_Boilerplate/");
+    navigate("/");
   }
 
   return (

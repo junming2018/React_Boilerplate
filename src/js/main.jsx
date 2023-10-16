@@ -9,22 +9,22 @@ import "../css/index.css";
 
 const router = createBrowserRouter([
   {
-    path: "/React_Boilerplate/",
+    path: "/",
     element: <FirstPage />,
     errorElement: <ErrorPage />,
   },
   {
-    path: "/React_Boilerplate/First",
+    path: "/First",
     element: <FirstPage />,
     errorElement: <ErrorPage />,
   },
   {
-    path: "/React_Boilerplate/Second",
+    path: "/Second",
     element: <SecondPage />,
     errorElement: <ErrorPage />,
   },
   {
-    path: "/React_Boilerplate/*",
+    path: "/*",
     element: <ErrorPage />,
   },
 ]);
