@@ -11,13 +11,13 @@
     "first": {
         "header": "Halaman Pertama Pendawaian React",
         "title": "Pendawaian React",
-        "description": "React + Javascript + Vite + SWC + Tailwind CSS + Storybook",
+        "description": "ReactJS + Vite + Tailwind CSS + Storybook",
         "instruction": "Klik pada logo React dan Vite untuk mengetahui lebih lanjut"
     },
     "second": {
         "header": "Halaman Kedua Pendawaian Vite + React",
         "title": "Pendawaian Vite + React",
-        "description": "Vite + React + Javascript + SWC + Tailwind CSS + Storybook",
+        "description": "Vite + ReactJS + Tailwind CSS + Storybook",
         "instruction": "Klik pada logo Vite dan React untuk mengetahui lebih lanjut"
     },
     "error": {

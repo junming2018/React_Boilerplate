@@ -11,13 +11,13 @@
     "first": {
         "header": "First Page of React Boilerplate",
         "title": "React Boilerplate",
-        "description": "React + Javascript + Vite + SWC + Tailwind CSS + Storybook",
+        "description": "ReactJS + Vite + Tailwind CSS + Storybook",
         "instruction": "Click on the React and Vite logo to learn more"
     },
     "second": {
         "header": "Second Page of React Boilerplate",
         "title": "Vite + React Boilerplate",
-        "description": "Vite + React + Javascript + SWC + Tailwind CSS + Storybook",
+        "description": "Vite + ReactJS + Tailwind CSS + Storybook",
         "instruction": "Click on the Vite and React logo to learn more"
     },
     "error": {

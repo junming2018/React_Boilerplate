@@ -1,12 +1,10 @@
 {
   "name": "react_boilerplate",
   "version": "1.0.0",
-  "description": "React + Javascript + Vite + SWC + Tailwind CSS + Storybook",
+  "description": "ReactJS + Vite + Tailwind CSS + Storybook",
   "keywords": [
-    "react",
     "reactjs",
     "vite",
-    "swc",
     "tailwindcss",
     "storybook"
   ],
@@ -18,7 +16,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "storybook": "storybook dev -p 6006",
+    "storybook": "storybook dev",
     "build-storybook": "storybook build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0"
   },
