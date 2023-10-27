@@ -10,7 +10,7 @@
   ],
   "author": "Jun Ming Teh (Bryan)",
   "license": "GPL-3.0",
-  "homepage": "https://junmingteh-2018.github.io/React_Boilerplate/",
+  "homepage": "https://junming2018.github.io/React_Boilerplate/",
   "type": "module",
   "scripts": {
     "dev": "vite",
